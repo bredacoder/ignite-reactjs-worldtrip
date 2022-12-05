@@ -1,0 +1,17 @@
+:root {
+  --swiper-navigation-size: 1.875rem !important;
+  --swiper-pagination-color: #FFBA08;
+  --swiper-navigation-color: #FFBA08;
+  --swiper-pagination-bullet-size: 1rem;
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+  margin: 0 2.5rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+

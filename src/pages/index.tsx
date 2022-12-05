@@ -1,5 +1,6 @@
-import { Box, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Divider, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { Header } from "../components/Header";
+import Slider from "../components/Slider";
 
 const TravelTypes = [
   {
@@ -35,7 +36,7 @@ export default function Home() {
         bgRepeat="no-repeat"
         bgSize="cover"
         h={["163", "335"]}
-        w="100vw"
+        w="100%"
       >
         <Flex 
           position="relative"
@@ -103,6 +104,8 @@ export default function Home() {
         w="100%"
         maxW="1160"
         mx="auto"
+        direction="column"
+        align="center"
       >
         <SimpleGrid
           mt={["9", "14", "28"]}
@@ -128,7 +131,34 @@ export default function Home() {
           ))}
         </SimpleGrid>
         
+        <Divider borderBottomColor="gray.600" mt="20" w="90px" borderBottomWidth="2px" />
+
+        <Box marginY="14" textAlign="center" >
+          <Text fontWeight="500" fontSize="4xl">Vamos nessa?</Text>
+          <Text fontWeight="500" fontSize="4xl">Então escolha seu continente</Text>
+        </Box>
       </Flex>
+
+      <Box 
+        h="450px"
+        w="1240px"
+        mx="auto"
+        mb="40px"
+      >
+        <Slider />
+      </Box>
+
+      {/* <Box 
+        bgImage="url('Continent.svg')"
+        bgPosition="center"
+        bgRepeat="no-repeat"
+        bgSize="cover"
+        h="450px"
+        w="1240px"
+        mx="auto"
+        mb="40px"
+      >
+      </Box> */}
     </>
   )
 }
