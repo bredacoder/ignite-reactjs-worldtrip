@@ -1,164 +1,38 @@
-import { Box, Divider, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { Divider, Text } from "@chakra-ui/react";
+import { Banner } from "../components/Banner";
 import { Header } from "../components/Header";
 import Slider from "../components/Slider";
-
-const TravelTypes = [
-  {
-    image: 'TravelTypes/Cocktail.svg',
-    description: 'vida noturna'
-  },
-  {
-    image: 'TravelTypes/Surf.svg',
-    description: 'praia'
-  },
-  {
-    image: 'TravelTypes/Building.svg',
-    description: 'moderno'
-  },
-  {
-    image: 'TravelTypes/Museum.svg',
-    description: 'clássico'
-  },
-  {
-    image: 'TravelTypes/Earth.svg',
-    description: 'e mais...'
-  },
-];
+import { TravelTypes } from "../components/TravelTypes";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      <Box 
-        bgImage="url('BackgroundBanner.svg')"
-        bgPosition="center"
-        bgRepeat="no-repeat"
-        bgSize="cover"
-        h={["163", "335"]}
-        w="100%"
-      >
-        <Flex 
-          position="relative"
-          justifyContent="space-between"
-          align="center"
-          mx="auto"
-          h="100%"
-          maxW="1160"
-          px={["4", "6"]}
-        >
-          <Box>
-            <Text 
-              fontSize={["xl", "4xl"]}
-              fontWeight="500" 
-              color="gray.100"
-            >
-              5 Continentes,
-            </Text>
-            <Text
-              fontSize={["xl", "4xl"]}
-              fontWeight="500"
-              color="gray.100"
-            >
-              infinitas possibilidades
-            </Text>
-      
-            <Text
-              fontSize={{
-                base: "sm",
-                sm: "xl",
-              }}
-              fontWeight="400"
-              color="gray.200"
-              mt="5" 
-              maxW="32.75rem"
-            >
-              Chegou a hora de tirar do papel a viagem que você sempre sonhou. 
-            </Text>
-          </Box>
+      <Banner />
 
-          <Image
-            position="absolute"
-            right="0"
-            bottom={{
-              base: "60%",
-              sm: "-11",
-              md: "-12",
-              lg: "-10"
-            }}
-            zIndex="1"
-            h={{
-              base: "60px",
-              sm: "120px",
-              md: "240px",
-              lg: "300px"
-            }}
-            src="Airplane.svg"
-            alt="Airplane"
-          />
-       
-        </Flex>
-      </Box>
-
-      <Flex
-        w="100%"
-        maxW="1160"
-        mx="auto"
-        direction="column"
-        align="center"
-      >
-        <SimpleGrid
-          mt={["9", "14", "28"]}
-          minChildWidth={["170px", "200px"]}
-          spacing={["4", "6"]} 
-          w="100%"
-        >
-          {TravelTypes.map(travelType => (
-            <Flex direction="column" align="center" gap={["2", "4", "6"]}>
-              <Image
-                width={["30px", "60px", "85px"]}
-                height={["30px", "60px", "85px"]}
-                src={travelType.image}
-                alt={travelType.description}
-              />
-              <Text
-                fontWeight="600"
-                fontSize={["lg", "xl", "2xl"]}
-              >
-                {travelType.description}
-              </Text>
-            </Flex>
-          ))}
-        </SimpleGrid>
+      <TravelTypes />
         
-        <Divider borderBottomColor="gray.600" mt="20" w="90px" borderBottomWidth="2px" />
-
-        <Box marginY="14" textAlign="center" >
-          <Text fontWeight="500" fontSize="4xl">Vamos nessa?</Text>
-          <Text fontWeight="500" fontSize="4xl">Então escolha seu continente</Text>
-        </Box>
-      </Flex>
-
-      <Box 
-        h="450px"
-        w="1240px"
+      <Divider
+        borderBottomColor="gray.600"
         mx="auto"
-        mb="40px"
-      >
-        <Slider />
-      </Box>
+        mt={["14",
+        "16","20"]}
+        w="90px"
+        borderBottomWidth="2px"
+      />
 
-      {/* <Box 
-        bgImage="url('Continent.svg')"
-        bgPosition="center"
-        bgRepeat="no-repeat"
-        bgSize="cover"
-        h="450px"
-        w="1240px"
-        mx="auto"
-        mb="40px"
+      <Text
+        marginY={["8", "10", "14"]}
+        textAlign="center"
+        fontWeight="500"
+        fontSize={["xl", "2xl", "4xl"]}
       >
-      </Box> */}
+        Vamos nessa? <br /> 
+        Então escolha seu continente
+      </Text>
+
+      <Slider />
     </>
   )
 }

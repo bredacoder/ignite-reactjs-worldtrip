@@ -7,12 +7,19 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+
 import Link from "next/link";
 
 export default function Slider() {
   return (
-    <>
+    <Box
+      h="450px"
+      maxWidth="1240px"
+      w="100%"
+      mx="auto"
+      mb="40px"
+    >
       <Swiper
         cssMode={true}
         navigation={true}
@@ -56,6 +63,6 @@ export default function Slider() {
           </Flex>
         </SwiperSlide>
       </Swiper>
-    </>
+    </Box>
   );
 }
