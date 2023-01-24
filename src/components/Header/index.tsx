@@ -11,7 +11,7 @@ export function Header() {
       align="center"
       mx="auto"
     >
-      <Image src="Logo.svg" alt="Logo" h={["5", "10"]} />
+      <Image src="/Logo.svg" alt="Logo" h={["5", "10"]} />
     </Flex>
   )
 };

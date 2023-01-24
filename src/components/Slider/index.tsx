@@ -42,7 +42,7 @@ export default function Slider() {
             bgSize="cover"
             textAlign="center"
           >
-            <Link href="continent">
+            <Link href="/continent/europa">
               <Heading
                 fontSize={["3xl","4xl","5xl"]}
                 color="gray.100"

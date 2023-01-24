@@ -4,7 +4,7 @@ export function Banner() {
   return (
     
   <Box 
-    bgImage="url('BackgroundBanner.svg')"
+    bgImage="url('/BackgroundBanner.svg')"
     bgPosition="center"
     bgRepeat="no-repeat"
     bgSize="cover"

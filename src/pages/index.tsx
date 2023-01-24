@@ -1,12 +1,17 @@
 import { Divider, Text } from "@chakra-ui/react";
-import { Banner } from "../components/Banner";
-import { Header } from "../components/Header";
+import Head from "next/head";
 import Slider from "../components/Slider";
+import { Header } from "../components/Header";
+import { Banner } from "../components/Banner";
 import { TravelTypes } from "../components/TravelTypes";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>WorldTrip</title>
+      </Head>
+
       <Header />
 
       <Banner />
