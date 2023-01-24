@@ -3,7 +3,7 @@ import { Box, Flex, Text, Image } from "@chakra-ui/react";
 export function Banner() {
   return (
     
-    <Box 
+  <Box 
     bgImage="url('BackgroundBanner.svg')"
     bgPosition="center"
     bgRepeat="no-repeat"

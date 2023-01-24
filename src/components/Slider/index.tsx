@@ -42,7 +42,7 @@ export default function Slider() {
             bgSize="cover"
             textAlign="center"
           >
-            <Link href="/">
+            <Link href="continent">
               <Heading
                 fontSize={["3xl","4xl","5xl"]}
                 color="gray.100"
@@ -53,8 +53,7 @@ export default function Slider() {
              <Text
                 fontWeight="bold"
                 color="gray.300"
-                fontSize={["0.8rem","1xl",
-                "2xl"]}
+                fontSize={["0.8rem","1xl","2xl"]}
                 mt={["2","4"]}
               >
                 O continente mais antigo.

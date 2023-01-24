@@ -37,7 +37,7 @@ export function TravelTypes() {
         w="100%"
       >
         {travelTypesInfo.map(travelType => (
-          <Flex direction="column" align="center" gap={["2", "4", "6"]}>
+          <Flex key={travelType.description}  direction="column" align="center" gap={["2", "4", "6"]}>
             <Image
               width={["30px", "60px", "85px"]}
               height={["30px", "60px", "85px"]}
