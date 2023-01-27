@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ContinentBanner from "../../components/ContinentBanner";
+import ContinentCities from "../../components/ContinentCities";
 import ContinentContent from "../../components/ContinentContent";
 import { Header } from "../../components/Header";
 
@@ -15,6 +16,8 @@ export default function Continent() {
       <ContinentBanner />
 
       <ContinentContent />
+
+      <ContinentCities />
     </>
   )
 }
