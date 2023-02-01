@@ -1,9 +1,14 @@
 import { Box, Container, Heading } from "@chakra-ui/react";
 
-export default function ContinentBanner() {
+interface ContinentBannerProps {
+  image: string;
+  title: string;
+}
+
+export default function ContinentBanner({ image, title } : ContinentBannerProps) {
   return (
     <Box 
-    bgImage="url('/Europe.svg')"
+    bgImage={`url('${image}')`}
     h="500" 
     w="100%"
     bgPosition="center"
@@ -24,7 +29,7 @@ export default function ContinentBanner() {
         fontWeight="600"
         lineHeight="72px"
       >
-        Europa
+        {title}
       </Heading>
     </Container>
   </Box>
