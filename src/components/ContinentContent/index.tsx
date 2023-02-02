@@ -1,7 +1,16 @@
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import Infos from "./Infos";
 
-export default function ContinentContent() {
+interface ContinentContentProps {
+  description: string;
+  infos: {
+    countries: number;
+    languages: number;
+    cities: number;
+  }
+}
+
+export default function ContinentContent({ description, infos } : ContinentContentProps) {
   return (
     <Flex
       my="20"
@@ -18,10 +27,10 @@ export default function ContinentContent() {
         color="gray.600"
         w="37.5rem"
       >
-        A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+        {description}
       </Text>
 
-      <Infos />
+      <Infos infos={infos} />
     </Flex>
   )
 }

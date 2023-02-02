@@ -1,6 +1,14 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
-export default function Infos() {
+interface InfosProps {
+  infos: {
+    countries: number;
+    languages: number;
+    cities: number;
+  }
+}
+
+export default function Infos({ infos: { countries, languages, cities } }: InfosProps) {
   return (
     <Flex
       w="lg"
@@ -13,7 +21,7 @@ export default function Infos() {
           fontSize="5xl"
           fontWeight="600"
         >
-          50
+          {countries}
         </Heading>
         <Text
           fontWeight="600"
@@ -31,7 +39,7 @@ export default function Infos() {
           fontSize="5xl"
           fontWeight="600"
         >
-          60
+          {languages}
         </Heading>
         <Text
           fontWeight="600"
@@ -49,7 +57,7 @@ export default function Infos() {
           fontSize="5xl"
           fontWeight="600"
         >
-          27
+          {cities}
         </Heading>
         <Text
           position="relative"

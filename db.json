@@ -6,17 +6,47 @@
       "summary": "O continente mais antigo.",
       "slider_image_url": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1420&q=80",
       "banner_image_url": "https://rare-gallery.com/uploads/posts/350157-4k-wallpaper.jpg",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
       "countries": 50,
       "languages": 60,
       "cities_info": 27,
       "most_famous_cities": "",
       "cities_list": [
         {
-          "name": "",
-          "country": "",
-          "thumbnail": "",
-          "flag_image_url": ""
+          "name": "Londres",
+          "country": "Reino Unido",
+          "thumbnail": "https://thumbs.dreamstime.com/b/ponte-da-torre-em-londres-reino-unido-38138737.jpg",
+          "flag_image_url": "https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/d/bandeira-do-reino-unido.jpg"
+        },
+        {
+          "name": "Paris",
+          "country": "França",
+          "thumbnail": "https://turismo.eurodicas.com.br/wp-content/uploads/2019/04/paris_na_primavera.jpg",
+          "flag_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Flag_of_France_%28lighter_variant%29.svg/250px-Flag_of_France_%28lighter_variant%29.svg.png"
+        },
+        {
+          "name": "Roma",
+          "country": "Itália",
+          "thumbnail": "https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/wyllmttxk9afbjifhsnz",
+          "flag_image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AkkbOKzcAjz52t43egYbNHy5owhwVAAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII="
+        },
+        {
+          "name": "Praga",
+          "country": "República Tcheca",
+          "thumbnail": "https://www.queroviajarmais.com/wp-content/uploads/2020/09/praga-cidade-mais-bonita-do-mundo.jpg",
+          "flag_image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAolBMVEX////XFBoRRX7VAADrpKUARoDYExgAR4PhDQYAP3sAPXoARn/cERMAL3MAM3UAMXQALHL4+fvKGieRLlGfKknTFR3bERQAOXgANndWcZn09vhLaZSLMFTHGyo8QHTNGCRSPW2mKER5javL0t1whqfCythnf6JfeJ24wtGwusxJZ5Omssbs7/PTmKA4QXVDP3KWLU5UPG2hKkhcO2mqJkFoOGWpJ7ySAAAEIElEQVR4nO3WCXbTMBSFYV+BK5yQtsxzW+aZAoX9bw2FtidNnDgeJL1JdwXyd/7zkupNVba5WfOW+gns5tzxO+o3cJtzrqSyMbdcSWVt/01KKmtzVyuprHZtUlJZza1WUrnaDRM3m5VUlnNrK6kst24SUnlP/SL6uc2VVNomJZUtJiGVD9Svot02E+upbDUxnsoOE9Op7DJxbmE2ld0mdlPpMFmmco/6fRTrNDGaSreJzVT2mVhMZa+JwVR6mLjZE1up9DGxlko/E1up9DQxlUpvE0Op9DcJqXy0kcoQk5DKJ+r35tggEyOpDDQxcVWGmlhIZbiJmz1VflVGmKhPZZSJa1SnMs5EdypjTTSnMtrEuSOtqUwwUZvKFBOtqUwz0ZnKRBOVqUw2UZjKdJOQyrPn1J8RdTFMtKUSxST8rdWUSiQT1xzqSSWWiaarEs9ETyoRTdSkEtUkpPKZ+oMiLK6JjlRim7jmSPxViW6iIJUEJuKvSgoT6amkMQlXRXAqiUycO5SbSjITwamkM5GbSkoTqT9ASU1CKi8EppLYRORVSW0iMZX0Jq5ZCEslg0n4WysrlSwmwlLJY7K8Kt+oP7X3cplI+gHKZiIolYwmYq5KThMpqeQ1kXFVMpuISCW7iYCrkt8kpPKFdyoUJiGVr9Tf3TUSE+apEJmwToXKhHMqdCZ8UyE0YZsKqQnTVGhNeKZCbcIxFWoSxzAVapDlmmNeqVB7XI5XKtQaV2sW329zGRMT/+PVLTZjYTL3L+8cgM04mIRI7lI73By9CbNIwMDEn/CKBOQm/CIBtQnDSEBrwjISkJrwjASEJlwjAZ2JP7nPMxJQmcz9A66RgMiEcyQgMeEdCShMmEeC/CbsI0F2E3/OPRJkNpEQCfKaiIgEOU2ERIKMJlIiQTYTOZEgl4mgSJDHRFQkyGLiz08FRYIMJtIiQXoTcZEgtcnc/5QWCRKbSIwESU1qkZEgpYnQSJDORGwkSGYiNxIkMpEcCdKYiI4EKUyER4IEJtIjQXSTupYeCWKbKIgEcU1URIKoJv5MQySIaKIlEsQzURMJYpnU9UMtkSCSiaZIEMVEVySIYaIsEkw3URcJJpv4s0fKIsFEE42RYJqJykgwxURpJJhgojUSjDbRGwnGmiiOBONMVEeCUSa6I8EIE+2RYLiJ/6U8Egw1qevf2iPBQBMLkWCQiY1IMMTESCTob2ImEvQ2sRMJeppYigT9TExFgj4mxiJBDxNrkWCvSV2/NhYJ9pn4C3ORoNvEZCToNLEZCTpM6rnNSLDbxGwk2GViOBLsMPEXMBsJtprYjgTbTIxHgraJ+UjQMimRYMOknv8xHwnWTUokl1uZ1HWJ5HJViaS1qlyS1qrrSB5Tv4TPqnJJWgsm/u9BieTmqnJJWqtKJK39A94y3RnYCDsIAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "Amsterdã",
+          "country": "Holanda",
+          "thumbnail": "https://www.vounajanela.com/wp-content/uploads/2016/09/capa4-1050x599.jpg",
+          "flag_image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAD1BMVEX///+uHCghRousChwTP4hTj+ZIAAABB0lEQVR4nO3QuRGAAAzAsPDsPzN9XFJAIU3g8xxs83XAD3lSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKe1FxsAwAAAAAAAAAAAAAAAAAAAMB7N9ucbJ6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Ul5Up6UJ+VJeVKelCflSXlSnpQn5Uk9Q6/I4nGDdNoAAAAASUVORK5CYII="
+        },
+        {
+          "name": "Dublin",
+          "country": "Irlanda",
+          "thumbnail": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1653017904/ynepgl8t26laavydbz5p.jpg",
+          "flag_image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAOVBMVEX///8Bmkr/eQD/eAD/dQMAmUn///3v/fMAnkgmnF3/9+/7eQDzhy3k5OT5egAEnU3V59nl5uPr3NTr7FI6AAABKklEQVR4nO3QiRGCMBAAwBxvImKA/ou1Cm4G3S1hS4+eoUY79hzn9d6mIUeJOTLUua0lxbK89D2lr+vTp0/fP/WNoz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTp06dPnz59+vTpu7fvM223/w369Ol7dF/K3u/25ajRjj3HeeX1fQEzaBKVOmQhkwAAAABJRU5ErkJggg=="
         }
       ]
     }

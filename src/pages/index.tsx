@@ -24,6 +24,7 @@ export default function Home({ continents }: HomeProps) {
     <>
       <Head>
         <title>WorldTrip</title>
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
 
       <Header />

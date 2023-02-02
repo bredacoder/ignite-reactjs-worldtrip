@@ -39,7 +39,7 @@ export default function Slider({ continents }: SliderProps) {
         className="mySwiper"
       >
         {continents.map(continent => (
-          <SwiperSlide>
+          <SwiperSlide key={continent.slug}>
             <Flex
               w="100%"
               h="100%"
