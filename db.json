@@ -10,7 +10,7 @@
       "countries": 50,
       "languages": 60,
       "cities_info": 27,
-      "most_famous_cities": "",
+      "most_famous_cities": "Londres, Paris, Roma, Praga, Amsterdã, Dublin",
       "cities_list": [
         {
           "name": "Londres",

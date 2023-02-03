@@ -7,6 +7,7 @@ interface ContinentContentProps {
     countries: number;
     languages: number;
     cities: number;
+    mostFamousCities: string;
   }
 }
 

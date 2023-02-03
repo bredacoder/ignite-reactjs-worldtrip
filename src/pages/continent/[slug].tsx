@@ -42,7 +42,8 @@ export default function Continent({ continent }: ContinentProps) {
         infos={{
           countries: continent.countries,
           languages: continent.languages,
-          cities: continent.citiesInfo
+          cities: continent.citiesInfo,
+          mostFamousCities: continent.mostFamousCities
         }}
       />
 

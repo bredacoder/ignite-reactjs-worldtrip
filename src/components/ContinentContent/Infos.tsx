@@ -1,14 +1,15 @@
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text, Tooltip } from "@chakra-ui/react";
 
 interface InfosProps {
   infos: {
     countries: number;
     languages: number;
     cities: number;
+    mostFamousCities: string;
   }
 }
 
-export default function Infos({ infos: { countries, languages, cities } }: InfosProps) {
+export default function Infos({ infos: { countries, languages, cities, mostFamousCities } }: InfosProps) {
   return (
     <Flex
       w="lg"
@@ -68,13 +69,16 @@ export default function Infos({ infos: { countries, languages, cities } }: Infos
         >
           cidades +100
 
-          <Image
-            position="absolute"
-            top="50%"
-            transform="translateY(-50%)"
-            right="-30px"
-            src="/Info.svg"
-          />
+          <Tooltip hasArrow label={mostFamousCities} bg="yellow.300">
+            <Image
+              position="absolute"
+              top="50%"
+              transform="translateY(-50%)"
+              right="-30px"
+              src="/Info.svg"
+            />
+          </Tooltip>
+          
         </Text>
       </Box>
   </Flex>
