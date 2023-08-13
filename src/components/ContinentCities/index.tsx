@@ -1,5 +1,5 @@
-import { Container, Grid, Text } from "@chakra-ui/react"
-import CityCard from "./CityCard"
+import { Container, Grid, Text } from "@chakra-ui/react";
+import CityCard from "./CityCard";
 
 interface ContinentCitiesProps {
   cities: {
@@ -22,7 +22,7 @@ export default function ContinentCities({ cities }: ContinentCitiesProps) {
       </Text>
 
       <Grid templateColumns='repeat(4, 1fr)' gap="10" my="10">
-        {cities.map(city => <CityCard key={city.name} city={city} />)}
+        {cities?.map(city => <CityCard key={city.name} city={city} />)}
       </Grid>
     </Container>
   )
