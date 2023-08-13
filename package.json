@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "json-server -w -d 750 -p 3500 db.json & next dev",
-    "build": "json-server -w -d 750 -p 3500 db.json & next build",
+    "dev": "json-server -w -p 3500 db.json & next dev",
+    "build": "json-server -w -p 3500 db.json & next build",
     "start": "next start",
     "lint": "next lint"
   },

@@ -48,7 +48,7 @@ export default function Continent({ continent }: ContinentProps) {
         }}
       />
 
-      <ContinentCities cities={continent.cities} />
+      <ContinentCities cities={continent?.cities} />
     </>
   )
 }
