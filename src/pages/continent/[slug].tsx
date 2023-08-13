@@ -27,6 +27,7 @@ interface ContinentProps {
 }
 
 export default function Continent({ continent }: ContinentProps) {
+
   return (
     <>
       <Head>
@@ -35,7 +36,7 @@ export default function Continent({ continent }: ContinentProps) {
 
       <Header />  
 
-      <ContinentBanner image={continent.image} title={continent.title}  />
+      <ContinentBanner image={continent?.image} title={continent.title}  />
 
       <ContinentContent
         description={continent.description}
