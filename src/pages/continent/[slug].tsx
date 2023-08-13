@@ -39,12 +39,12 @@ export default function Continent({ continent }: ContinentProps) {
       <ContinentBanner image={continent?.image} title={continent?.title}  />
 
       <ContinentContent
-        description={continent.description}
+        description={continent?.description}
         infos={{
-          countries: continent.countries,
-          languages: continent.languages,
-          cities: continent.citiesInfo,
-          mostFamousCities: continent.mostFamousCities
+          countries: continent?.countries,
+          languages: continent?.languages,
+          cities: continent?.citiesInfo,
+          mostFamousCities: continent?.mostFamousCities
         }}
       />
 
